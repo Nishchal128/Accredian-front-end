@@ -34,7 +34,7 @@ const Main = () => {
     e.preventDefault();
   
     try {
-      const response = await fetch('http://localhost:5000/api/referral', { // Ensure this URL matches your server endpoint
+      const response = await fetch('https://accredian-back-end.onrender.com/api/referral', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
